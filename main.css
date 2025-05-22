@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 236, 236);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    gap: 26px;
+}
+
+.child {
+    width: 100%;
+    background-color: #733FC8;
+    border-radius: 8px;
+    position: relative;
+}
+
+.child-one {
+    height: 444px;
+}
+.child-two {
+    background-color: #48556A;
+    height: 240px;
+}
+
+.child-three {
+    background-color: #FFFFFF;
+    height: 222px;
+}
+
+.child-four {
+    background-color: #19202D;
+    height: 384px;
+}
+
+.child-five {
+    background-color: #FFFFFF;
+    height: 438px;
+}
+
+.background-img {
+    background-image: url(./images/bck-image.svg);
+    width: 33%;
+    height: 102px;
+    background-repeat: no-repeat;
+}
+
+.daniel {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.daniel > img {
+    position: relative;
+    bottom: 10px;
+    left: 7px;
+}
+
+.daniel-about {
+    height: 120px;
+    width: 68.31%;
+    position: absolute;
+    top: 17%;
+    left: 14.5%;
+}
+
+.daniel-about > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.daniel-info {
+    height: 180px;
+    width: 64.16%;
+    position: absolute;
+    bottom: 9%;
+    left: 14.5%;
+}
+
+.daniel-info > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #CFCFCF;
+}
+
+.jonathan {
+    position: absolute;
+    top: 7%;
+    left: 14.5%;
+}
+
+.jonathan-about {
+    position: absolute;
+    height: 48px;
+    bottom: 53%;
+    left: 14.5%;
+    width: 68.43%;
+}
+
+.jonathan-about > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.jonathan-info {
+    position: absolute;
+    bottom: 17%;
+    left: 14.5%;
+    height: 40px;
+    width: 70.43%;
+}
+
+.jonathan-info > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #CFCFCF;
+}
+
+.jeanette {
+    position: absolute;
+    top: 7%;
+    left: 14.5%;
+}
+
+.jeanette-about {
+    position: absolute;
+    top: 32%;
+    left: 14.5%;
+    width: 70%;
+    height: 48px;
+}
+
+.jeanette-about > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #48556A;
+}
+
+.jeanette-info {
+    position: absolute;
+    top: 60%;
+    height: 54px;
+    width: 67%;
+    left: 14.5%;
+}
+
+.jeanette-info > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 500px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #48556A;
+}
+
+.patrick {
+    position: absolute;
+    top: 7%;
+    left: 14.5%;
+}
+
+.patrick-about {
+    position: absolute;
+    top: 19%;
+    left: 14.5%;
+    height: 120px;
+    width: 68%;
+}
+
+.patrick-about > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ECF2F8;
+}
+
+.patrick-info {
+    position: absolute;
+    top: 53%;
+    left: 14.5%;
+    height: 144px;
+    width: 67.3%;
+}
+
+.patrick-info > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #CFCFCF;
+}
+
+.kira {
+    position: absolute;
+    top: 7%;
+    left: 14.5%;
+}
+
+.kira-about {
+    position: absolute;
+    top: 18%;
+    left: 14.5%;
+    height: 48px;
+    width: 70%;
+}
+
+.kira-about > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #48556A;
+}
+
+.kira-info {
+    position: absolute;
+    top: 32.7%;
+    left: 14.5%;
+    height: 270px;
+    width: 67.3%;
+}
+
+.kira-info > p {
+    font-family: Barlow Semi Condensed;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #48556A;
+}
+
+@media (width > 768px ) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        gap: 0;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 40% 60%;
+    }
+
+    .child-one {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        height: 330px;
+        width: 95%;
+    }
+
+    .child-two {
+        grid-column: 3/4;
+        width: 90%;
+        height: 330px;
+    }
+
+    .child-three {
+        grid-column:1;
+        grid-row:2;
+        height: 346px;
+        width: 90%;
+    }
+
+    .child-four {
+        grid-column: 2/4;
+        grid-row: 2;
+        width: 95%;
+        height: 346px;
+    }
+
+    .child-five {
+        grid-column:4/6;
+        grid-row: 1/3;
+        height: 695px;
+        width: 95%;
+    }
+
+    .daniel {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        width: 100%;
+        height: 28px;
+    }
+
+    .daniel > img {
+        position: relative;
+        bottom: 70%;
+        left: 0px;
+        margin-left: 6.8%;
+    }
+
+    .background-img {
+        width: 20%;
+        margin-right: 8%;
+    }
+
+    .daniel-about {
+        height: 72px;
+        width: 79.31%;
+        position: absolute;
+        top: 17.5%;
+        left: 7.5%;
+    }
+    
+    .daniel-about > p {
+        font-family: Barlow Semi Condensed;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    .daniel-info {
+        height: 40%;
+        width: 80.16%;
+        position: absolute;
+        bottom: 9.5%;
+        left: 7.5%;
+    }
+
+    .daniel-info > p {
+        font-family: Barlow Semi Condensed;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0px;
+        color: #CFCFCF;
+    }
+
+    .jonathan-info {
+        position: absolute;
+        bottom: 20%;
+        left: 14.5%;
+        height: 30%;
+        width: 68.43%;
+    }
+
+    .jonathan-about {
+        position: absolute;
+        height: 48px;
+        bottom: 68%;
+        left: 14.5%;
+        width: 68.43%;
+    }
+
+    .patrick {
+        position: absolute;
+        top: 8%;
+        left: 7.5%;
+    }
+
+    .patrick-about {
+        position: absolute;
+        top: 29%;
+        left: 7.5%;
+        height: 72px;
+        width: 79%;
+    }
+    
+    .patrick-info {
+        position: absolute;
+        top: 58%;
+        left: 7.5%;
+        height: 144px;
+        width: 79.8%;
+        height: 30%;
+    }
+
+    .kira {
+        position: absolute;
+        left: 14.5%;
+        top: 4%;
+    }
+
+    .kira-about {
+        position: absolute;
+        top: 9.3%;
+        left: 14.5%;
+        height: 30%;
+        width: 60%;
+    }
+
+    .kira-info {
+        position: absolute;
+        top: 25.7%;
+        left: 8.5%;
+        height: 80%;
+        width: 90.3%;
+    }
+
+    .kira-info > p {
+        font-family: Barlow Semi Condensed;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0px;
+        color: #48556A;
+}
